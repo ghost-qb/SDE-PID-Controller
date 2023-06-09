@@ -38,7 +38,7 @@ void PID::UpdateError(double cte) {
    /**
    * TODO: Update PID errors based on cte.
    **/
-   _dError = cte - PID::_pError;
+   _dError = cte - _pError;
    _pError = cte;
    _iError += cte;
 }
