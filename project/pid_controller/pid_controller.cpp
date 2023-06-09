@@ -29,6 +29,8 @@ void PID::Init(double Kpi, double Kii, double Kdi, double output_lim_maxi, doubl
    
    _output_lim_max = output_lim_maxi;
    _output_lim_min = output_lim_mini;
+   
+   dT = 0.0;
 }
 
 
@@ -52,10 +54,11 @@ double PID::TotalError() {
    
    if (control <= _output_lim_min)
    {
-      return output_lim_min;
+      return _output_lim_min;
+   }
    else if (control >= _output_lim_max)
    {
-      return output_lim_max;
+      return _output_lim_max;
    }
    
    return control;
