@@ -25,9 +25,13 @@ Refer to the code and comments in main.cpp
 
 - Getting to the experiment 2 the car has more stable steering and the throttle is less aggressive resulting in less braking
 - However, these coefficients still did not get the car to avoid the obstacle 
-![Screen Shot 2023-06-08 at 7 41 10 PM](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/669c686b-e37a-459a-92ec-097db4e1bdc1)
+![Screen Shot 2023-06-08 at 4 49 37 PM](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/91d3c02e-eec8-4b43-bf73-7411621f7516)
 
 
 ## Experiment 3 - Result 
 ![Figure_3 1](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/7a9a2868-a80d-4b0a-b46b-d1ab5d6b7e07)
 ![Figure_3 2](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/eccf0b7c-298e-4a2f-9232-90901478bc96)
+
+- After a couple of trials and errors I have got to the coefficients that resulted in the car being able to avoid the first obstacle 
+![Screen Shot 2023-06-08 at 8 35 19 PM](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/f783f0b1-ac8a-4541-9e0a-6a84249ed3fe)
+
