@@ -16,10 +16,17 @@ Refer to the code and comments in main.cpp
 ![Figure_1 2](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/42228d21-c64c-446e-a60a-6b3fc57d2b91)
 
 - From the experiment 1 results, I can see the steering and the throttle can be aggresive. Therefore, I reduce the steering and the throttle control by reducing the coefficients.
+- The effect from steering too aggressive is the car went off to the side
+![Screen Shot 2023-06-08 at 7 41 10 PM](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/34e50f8b-5d17-4eb4-a140-3681af4cfab1)
 
 ## Experiment 2 - Result
 ![Figure_2 1](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/6db8ac1e-e5b8-4a1a-86c0-5c49cfa0ec0f)
 ![Figure_2 2](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/2054b109-7a5e-4f31-9036-cb6462c9e07a)
+
+- Getting to the experiment 2 the car has more stable steering and the throttle is less aggressive resulting in less braking
+- However, these coefficients still did not get the car to avoid the obstacle 
+![Screen Shot 2023-06-08 at 7 41 10 PM](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/669c686b-e37a-459a-92ec-097db4e1bdc1)
+
 
 ## Experiment 3 - Result 
 ![Figure_3 1](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/7a9a2868-a80d-4b0a-b46b-d1ab5d6b7e07)
