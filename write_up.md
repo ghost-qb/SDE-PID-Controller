@@ -1,6 +1,5 @@
 # Project Setup 
-
-
+![CARLA-setup](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/c7e156c5-fc96-45d8-b7d5-a822161d106c)
 
 # Step 1: Build the PID controller object
 Refer to the code in pid_controller.h and pid_controller.cpp
@@ -15,6 +14,8 @@ Refer to the code and comments in main.cpp
 ## Experiment 1 - Result
 ![Figure_1 1](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/4d94c1ad-697c-43eb-912b-6da7cc568270)
 ![Figure_1 2](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/42228d21-c64c-446e-a60a-6b3fc57d2b91)
+
+- From the experiment 1 results, I can see the steering and the throttle can be aggresive. Therefore, I reduce the steering and the throttle control by reducing the coefficients.
 
 ## Experiment 2 - Result
 ![Figure_2 1](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/6db8ac1e-e5b8-4a1a-86c0-5c49cfa0ec0f)
