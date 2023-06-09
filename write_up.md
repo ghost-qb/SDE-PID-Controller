@@ -33,5 +33,7 @@ Refer to the code and comments in main.cpp
 ![Figure_3 2](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/eccf0b7c-298e-4a2f-9232-90901478bc96)
 
 - After a couple of trials and errors I have got to the coefficients that resulted in the car being able to avoid the first obstacle 
+- And the car goes a lot smoother now with small coefficients; this can be seen in the brake plot which remains flat. 
+
 ![Screen Shot 2023-06-08 at 8 35 19 PM](https://github.com/qbach-repo/SDE-PID-Controller/assets/58492405/f783f0b1-ac8a-4541-9e0a-6a84249ed3fe)
 
